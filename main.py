@@ -10,7 +10,7 @@ def generate_response(input_text):
   st.info(model.invoke(input_text))
 
 with st.form('my_form'):
-  text = st.text_area('Enter text:', 'Provide react code for a component that would render data from an axios call.')
+  text = st.text_area('Enter text:', 'Replace this text with your question or statement.')
   submitted = st.form_submit_button('Submit')
   if submitted:generate_response(text)
 
