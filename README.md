@@ -4,6 +4,7 @@
 uv init
 source venv/bin/activate
 uv add -r requirements.txt
+streamlit run main.py
 ```
 
 ## Interface
@@ -12,3 +13,4 @@ Provides an interface utilizing streamlit and langchain to access a locally run 
 ## Screenshot
 
 ![Screenshot of the interface.](images/quick_chat.png) 
+
